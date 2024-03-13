@@ -1,2 +1,5 @@
 ﻿  Source.c
-  Program.vcxproj -> C:\Users\Administrator\Desktop\Program\x64\Debug\Program.exe
+C:\Users\Administrator\Desktop\C-lecture\Program\Source.c(54,6): error C2374: 'value': redefinition; multiple initialization
+  C:\Users\Administrator\Desktop\C-lecture\Program\Source.c(53,6):
+  see declaration of 'value'
+  
