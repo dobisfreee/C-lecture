@@ -1,0 +1,3 @@
+﻿  Class1st (Variable).c
+C:\Users\Administrator\Desktop\C-lecture\Class1st (Variable)\Class1st (Variable).c(12,8): warning C4101: 'grade': unreferenced local variable
+  Class1st (Variable).vcxproj -> C:\Users\Administrator\Desktop\C-lecture\Program\x64\Debug\Class1st (Variable).exe
