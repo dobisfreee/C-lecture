@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 void main()
 {
 #pragma region 비트
@@ -49,7 +49,7 @@ void main()
 	//
 	//char k = 9; //0000 1001
 	//
-	//printf("k 변수를 NOT 연산한 결과 : %d\n", ~k);
+	//printf("k 변수를 NOT 연산한 결과 : %d\n", ~k); //1111 0110
 
 	// 첫 번째 비트는 부호를 나타내며, 첫 번째 비트에 1이 있다면 값은 음수가 됩니다. 
 
@@ -71,12 +71,12 @@ void main()
 
 	//(과제)
 
-	int health = 100;
+	//int health = 100;
 
-	const int contant = 5;
+	//const int contant = 5;
 
 	// 1. int (result1) 변수 = 심볼릭 상수 + 리터럴 상수
-	int result1 = contant + 10;
+	//int result1 = contant + 10;
 	// 2. int (result2) 변수 = 리터럴 상수 - 리터럴 상수
 	// 3. int (result3) 변수 = 변수 * 심볼릭 상수 
 	// 4. int(result4) 변수 = 변수 / 리터럴 상수 
