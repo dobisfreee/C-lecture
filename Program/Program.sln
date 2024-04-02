@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class12th (Recursive Functi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class13th (Variable Scope)", "..\Class13th (Variable Scope)\Class13th (Variable Scope).vcxproj", "{B96BFCD6-1CCD-40F9-8F83-D75926639EDF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class14th(Dynamic Allocation)", "..\Class14th(Dynamic Allocation)\Class14th(Dynamic Allocation).vcxproj", "{D21CCA27-E1FB-40A2-A690-370263DCC324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{B96BFCD6-1CCD-40F9-8F83-D75926639EDF}.Release|x64.Build.0 = Release|x64
 		{B96BFCD6-1CCD-40F9-8F83-D75926639EDF}.Release|x86.ActiveCfg = Release|Win32
 		{B96BFCD6-1CCD-40F9-8F83-D75926639EDF}.Release|x86.Build.0 = Release|Win32
+		{D21CCA27-E1FB-40A2-A690-370263DCC324}.Debug|x64.ActiveCfg = Debug|x64
+		{D21CCA27-E1FB-40A2-A690-370263DCC324}.Debug|x64.Build.0 = Debug|x64
+		{D21CCA27-E1FB-40A2-A690-370263DCC324}.Debug|x86.ActiveCfg = Debug|Win32
+		{D21CCA27-E1FB-40A2-A690-370263DCC324}.Debug|x86.Build.0 = Debug|Win32
+		{D21CCA27-E1FB-40A2-A690-370263DCC324}.Release|x64.ActiveCfg = Release|x64
+		{D21CCA27-E1FB-40A2-A690-370263DCC324}.Release|x64.Build.0 = Release|x64
+		{D21CCA27-E1FB-40A2-A690-370263DCC324}.Release|x86.ActiveCfg = Release|Win32
+		{D21CCA27-E1FB-40A2-A690-370263DCC324}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
