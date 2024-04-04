@@ -35,7 +35,7 @@ int main()
 	// while (currentPtr != NULL)
 	// {
 	// 	printf("%d\n", currentPtr->data);
-	// 	currentPtr = currentPtr->next;
+	// 	currentPtr = currentPtr->next; 
 	// }
 
 
