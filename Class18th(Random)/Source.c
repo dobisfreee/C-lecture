@@ -27,65 +27,48 @@ int main()
 	// }
 #pragma endregion
 #pragma region UP-DOWN GAME
-	// ViewHP(5);
-	// while (1)
+	// int health = 5;
+	// srand(time(NULL));
+	// int computer = rand() % 31;
+	// int player = NULL;
+	// printf("%d", computer);
+	// while (health > 0)
 	// {
-	// 	time(NULL);
-	// 	srand(time(NULL));
-	// 	
-	// 	int number = (rand() % 31);
-	// 	int answer = NULL;
-	// 	int flag = 0;
+	// 	ViewHP(health);
 	// 
-	//      
+	// 	printf("값을 입력해주세요 : ");
+	// 	scanf_s("%d", &player);
 	// 
-	// 	 system("cls");
+	// 	if (player > computer)
+	// 	{
+	// 		system("cls");
+	// 		health--;
 	// 
-	// 	 printf("\n");
-	// 	 
-	// 	
-	// 	 printf("정답을 입력하세요 : ");
-	// 	 scanf_s("%d", &answer);
+	// 		printf("DOWN");
+	// 		printf("\n");
 	// 
-	// 	 for(int i = 0; i < 4; i ++)
-	// 	 {
-	// 		 system("cls");
-	// 		
-	// 		 if (answer == number)
-	// 		 {
-	// 			 printf("정답입니다\n");
-	// 			 flag = 1;
-	// 			 break;
-	// 	     }
-	// 		 else
-	// 		 {
-	// 			 printf("틀렸습니다\n");	
-	// 			 ViewHP(health--);
-	// 			 
-	// 			 printf("\n");
-	// 			 if(number > answer)
-	// 			 {
-	// 				 printf("UP\n");
-	// 			 }
-	// 			 else
-	// 			 {
-	// 				 printf("DOWN\n");
-	// 			 }
-	// 		 }
-	// 		 printf("정답을 입력하세요 : ");
-	// 		 scanf_s("%d", &answer);
 	// 	}
-	// 	 system("cls");
-	// 	 if (flag == 1)
-	// 	 {
-	// 		 printf("Victory\n");
-	// 		 break;
-	// 	 }
-	// 	 else(flag == 0);
-	// 	 {
-	// 		 printf("Defeat\n");
-	// 		 break;
-	// 	 }
+	// 	else if (player < computer)
+	// 	{
+	// 		system("cls");
+	// 		health--;
+	// 
+	// 		printf("UP");
+	// 		printf("\n");
+	// 	}
+	// 	else
+	// 	{
+	// 		system("cls");
+	// 		break;
+	// 	}
+	// }
+	// if (health > 0)
+	// {
+	// 	printf("vicotory");
+	// }
+	// else
+	// {
+	// 	printf("defeat");
 	// }
 #pragma endregion
 
