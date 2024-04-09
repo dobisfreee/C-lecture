@@ -1,0 +1,6 @@
+﻿  Source.c
+C:\Users\Administrator\Desktop\C-lecture\Class12th (Recursive Function)\Source.c(3,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\C-lecture\Class12th (Recursive Function)\Source.c(20,6): error C2084: 'void Recursive(int)' 함수에 이미 본문이 있습니다.
+  C:\Users\Administrator\Desktop\C-lecture\Class12th (Recursive Function)\Source.c(8,6):
+  'Recursive'의 이전 정의를 참조하십시오.
+  
