@@ -27,49 +27,49 @@ int main()
 	// }
 #pragma endregion
 #pragma region UP-DOWN GAME
-	// int health = 5;
-	// srand(time(NULL));
-	// int computer = rand() % 31;
-	// int player = NULL;
-	// printf("%d", computer);
-	// while (health > 0)
-	// {
-	// 	ViewHP(health);
-	// 
-	// 	printf("값을 입력해주세요 : ");
-	// 	scanf_s("%d", &player);
-	// 
-	// 	if (player > computer)
-	// 	{
-	// 		system("cls");
-	// 		health--;
-	// 
-	// 		printf("DOWN");
-	// 		printf("\n");
-	// 
-	// 	}
-	// 	else if (player < computer)
-	// 	{
-	// 		system("cls");
-	// 		health--;
-	// 
-	// 		printf("UP");
-	// 		printf("\n");
-	// 	}
-	// 	else
-	// 	{
-	// 		system("cls");
-	// 		break;
-	// 	}
-	// }
-	// if (health > 0)
-	// {
-	// 	printf("vicotory");
-	// }
-	// else
-	// {
-	// 	printf("defeat");
-	// }
+	 int health = 5;
+	 srand(time(NULL));
+	 int computer = rand() % 31;
+	 int player = NULL;
+	 printf("%d", computer);
+	 while (health > 0)
+	 {
+	 	ViewHP(health);
+	 
+	 	printf("값을 입력해주세요 : ");
+	 	scanf_s("%d", &player);
+	 		system("cls");
+	 
+	 	if (player > computer)
+	 	{
+	 		health--;
+	 
+	 		printf("DOWN");
+	 		printf("\n");
+	 
+	 	}
+	 	else if (player < computer)
+	 	{
+	 		
+	 		health--;
+	 
+	 		printf("UP");
+	 		printf("\n");
+	 	}
+	 	else
+	 	{
+	 		system("cls");
+	 		break;
+	 	}
+	 }
+	 if (health > 0)
+	 {
+	 	printf("vicotory");
+	 }
+	 else
+	 {
+	 	printf("defeat");
+	 }
 #pragma endregion
 
 
