@@ -2,6 +2,7 @@
 #include <Windows.h>
 
 
+
 typedef struct Character
 {
 	int x, y;
